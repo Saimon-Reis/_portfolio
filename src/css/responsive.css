@@ -231,14 +231,18 @@
 
 }
 
-@media screen and (max-width: 568px) { /*alterar mais tarde*/
+@media screen and (max-width: 568px) {
+    /*alterar mais tarde*/
 
     .content {
-
+        display: grid;
         height: 100%;
         align-items: center;
 
+
     }
+
+
 
     .columan h2,
     .columan p {
@@ -246,9 +250,9 @@
     }
 
     .columa .cars {
-        flex-wrap: wrap;
-        width: 70px;
-        height: 80px;
+        display: grid;
+        width: 100%;
+        height: 100px;
 
     }
 
@@ -256,9 +260,20 @@
         display: none;
     }
 
-    .contact{
+    .contact {
         display: none;
     }
+
+    .ti{
+        display: flex;
+        position: relative;
+       justify-content: center;
+        font-size: 40px;
+        font-weight: 500;
+        padding-bottom: 20px;
+        font-family: 'Ubuntu', sans-serif;
+        
+      }
 
 
 }
